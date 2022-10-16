@@ -11,7 +11,7 @@ for i in a:
     if i > n:
         n = i
 
-for x in a:
-    if x < n and x != m:
-        n = x
+for i in a:
+    if i < n and i != m:
+        n = i
 print(n)
